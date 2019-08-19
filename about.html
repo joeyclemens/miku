@@ -43,12 +43,24 @@ body {
 }
 
 .banner-txt {
-text-align:right;
-float: right;
+text-align:center;
+float: center;
 font-size: 24px;
 style="color:black"
 }
 
+.nav {
+padding:10px;
+list-style-type: none;
+text-align: center;
+}
+
+.nav li{
+display: inline-block;
+font-size:20px;
+padding-left:10px;
+padding-right:10px;
+}
 
 h1 {
   font-size: 36px;
@@ -91,7 +103,10 @@ p {
 
 <div class="banner"> <!-- head banner -->
 <div class="banner-txt">
-<a href="index.html"><h2><u>Home</u><h2></a>
+<ul class="nav">
+		<li><a href="index.html"> <h2><u>Home</u><h2></a></li>
+		<li><a href="projects.html"> <h2><u>Projects</u></h2></a></li>
+		</ul>
 </div>
 </div> <!-- head banner -->
 
