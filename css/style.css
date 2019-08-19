@@ -13,23 +13,22 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-
-.main-banner {
-text-align: center;
+.banner-txt {
+text-align:right;
+float: right;
 }
-
 
 h1 {
   font-size: 36px;
-  padding: 10px;
+  padding: 1px;
   color: #000000;
   background-color: clear;
 }
 
 h2 {
   font-size: 24px;
-  padding: 15px;
-  text-transform: uppercase;
+  padding: 1px;
+  
 }
 
 h3 {
