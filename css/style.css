@@ -16,6 +16,8 @@ body {
 .banner-txt {
 text-align:right;
 float: right;
+font-size: 24px;
+color: #000000;
 }
 
 h1 {
