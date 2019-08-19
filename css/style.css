@@ -6,24 +6,24 @@
 }
 
 body {
- background-image: url("../img/miku.jpg");
+ background-color: #ffffff;
 	background-repeat: no-repeat;
   background-size: 100% 100%;
   color: black;
     font-family: 'Oswald', sans-serif;
 }
 
-header {
-  text-align: center;
-  margin-top: 5px;
-  
+
+.main-banner {
+text-align: center;
 }
+
 
 h1 {
   font-size: 36px;
-  padding: 15px;
-  color: #FB55EC;
-  background-color: pink;
+  padding: 10px;
+  color: #000000;
+  background-color: clear;
 }
 
 h2 {
