@@ -11,17 +11,16 @@
 /* unvisited link */
 a:link {
   color: black;
-	text-decoration: none;
 }
+
 /* visited link */
 a:visited {
   color: black;
-	text-decoration: none;
 }
+
 /* mouse over link */
 a:hover {
   font-family: monospace;
-	text-decoration: underline;
 }
 
 /* selected link */
@@ -74,6 +73,7 @@ font-size:20px;
 padding-left:10px;
 padding-right:10px;
 }
+
 h1 {
   font-size: 36px;
   padding: 1px;
@@ -89,8 +89,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  padding: 15px;
-  text-transform: uppercase;
+  padding: 1px;
   margin-left: 20px;
   font-weight: 500;
   line-height: 2.7;
@@ -106,6 +105,10 @@ p {
   line-height: 2.7;
   letter-spacing: 0.8px;
 }
+
+.projects {
+background-color: #f2f2f2;
+}
 </style>
 
 <div class="container"><!-- open container -->
@@ -115,20 +118,45 @@ p {
 
 	<div class="banner-txt" id="banner-txt">
 		<ol class="nav">
-			<li><a href="index.html"> <h2>Home</h2></a></li>
-			<li><a href="about.html"> <h2>About<h2></a></li>
+			<li><a href="index.html"> <h2><u>Home</u></h2></a></li>
+			<li><a href="about.html"> <h2><u>About</u><h2></a></li>
 		</ol>
 	</div>
 
-	<div class="first-header column"><!-- first header -->
+	<div class="projects"><!-- first header -->
 		<h1><u>Projects</u></h1>
-	</div><!-- close first header -->
+	
+	
+	
+	<div class="brief">
+		<h2>The Nixie clock</h2>
 		
-	<div class="intro column">
-		<h2></h2>
-			<p></p>
-	</div><!-- intro column -->
-		
+		<h3>The brief</h3>
+			<p>I have been fascinated with the idea of having a nixie tube clock ever 
+			since I first saw one. I had seen a few online but was amazed at how much 
+			they cost to buy. After a few eBay searches I soon realised I could get the 
+			tubes themselves for relatively cheap and looked into how difficult it might 
+			be to build one myself.</p>
+	</div><!-- brief -->
+	
+	<div class="build">
+	<h3>The build</h3>
+	<p>There are a few schematics online that explain how the tubes work and using this 
+	I was able to get the tubes I bought to display numbers. The next step was how to get 
+	the time displayed as accurately as possible. I have used the Arduino micro 
+	controller a few times before, so I was familiar with it and its programming language.
+	I used one as a base for this project and worked upwards from there. I found a cheap 
+	circuit board online with a 555 timer and the required voltage regulators 
+	(The nixie tubes need 240 volts which is considerably more than the 5 volts the 
+	Arduino outputs). Once everything was soldered together and the code was written I 
+	was very pleased to see that it worked. I then had to put it in a box of some kind. 
+	The bare circuit board looked cool but if you touched it there was a very good chance 
+	of a nasty electric shock. I settled on a nice wooden box which I felt offset the 
+	steampunk feel of the orange glow from the tubes. </p>
+	</div> <!-- build -->
+	
+	
+</div><!-- close first header -->
 
 </div><!-- close container -->
 
