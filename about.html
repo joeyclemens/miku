@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
+	<head>
+		<link rel="icon" href="img/favicon.ico" width="16" height="16" alt="favicon">
+		<title>Joey Clemens</title>
+		
+	</head>
 
-<head>
-	<link rel="icon" href="img/favicon.ico" width="16" height="16" alt="favicon">
-		<title>About</title>
-</head>
 <body>
 <style>
 /* unvisited link */
@@ -12,21 +13,34 @@ a:link {
   color: black;
   text-decoration: none;
 }
+
 /* visited link */
 a:visited {
   color: black;
+  
 }
+
 /* mouse over link */
 a:hover {
   font-family: monospace;
   text-decoration: underline;
+  
 }
 
 /* selected link */
 a:active {
   color: black;
-text-decoration: underline;
+  text-decoration: underline;
 } 
+
+ul {
+list-style-type: none;
+
+}
+
+.main-banner {
+padding: 1px;
+}
 
 .container{
 	background-color:clear;
@@ -43,16 +57,20 @@ body {
 }
 
 .banner-txt {
-text-align:center;
-float: center;
+text-align: center;
+
 font-size: 24px;
 style="color:black"
+list-style: none;
+   
+    
 }
 
 .nav {
 padding:10px;
 list-style-type: none;
 text-align: center;
+
 }
 
 .nav li{
@@ -78,70 +96,139 @@ h2 {
 h3 {
   font-size: 20px;
   padding: 15px;
-  text-transform: uppercase;
+  
+  
+}
+
+h5 {
+font-size: 14px;
+  padding: 8px;
+  
+}
+p {
+  font-size: 15px;
+  padding: 5px;
+  color: #000000;	
   margin-left: 20px;
   font-weight: 500;
   line-height: 2.7;
   letter-spacing: 0.8px;
 }
+  
 
-p {
-  font-size: 15px;
-  padding: 2px;
-  color: black;	
-  margin-left: 20px;
-  font-weight: 500;
-  line-height: 1.7;
-  letter-spacing: 0.8px;
-  font-family: 'Lucida Grande', sans-serif;
+.intro1 {
+background-color: #f2f2f2 ; /* grey 1 */
+float: left width 50%;
+
 }
 
-.intro{
-background-color:#f2f2f2  ;
+.intro2 {
+background-color: #f2f2f2 ; /* grey1 */
+float: right width 50%;
+}
 
+.project-container {
+  left: 0;
+  background-color: #ff8533; /* orange	 1 */
+  float: left;
+  width: 45%;
+ 
+  }
+  
+.blog-container {
+  right: 0;
+  background-color: #ff8533 ; /* orange 1 */
+  float: right;
+  width: 45%;
+}
 
+.blog2-container {
+  right: 0;
+  background-color: #ff8533 ; /* orange 1 */
+  float: right;
+  width: 45%;
+}
+
+.project-header {
+  left: 0;
+  background-color: #f2f2f2; /* grey 1 */
+  float: left;
+  width: 45%;
+  }
+
+.blog-header {
+  right: 0;
+  background-color:#f2f2f2  ; /*grey 1 */
+  float: right;
+  width: 45%;
 }
 </style>
 
 <div class="container"><!-- open container -->
-	<div class="main-banner" role="banner">
-  <img src="img/black_line.gif" width="950" height="152" alt="black_line">
+		<div class="main-banner" role="banner">
+  		<img src="img/black_line.gif" width="950" height="152" alt="black_line">
 	</div>
 
-<div class="banner"> <!-- head banner -->
-<div class="banner-txt">
-<ul class="nav">
-		<li><a href="index.html"> <h2>Home<h2></a></li>
+	<div class="banner-txt" id="banner-txt">
+	<ul class="nav">
+		<li><a href="about.html"> <h2>About<h2></a></li>
 		<li><a href="project.html"> <h2>Projects</h2></a></li>
-		</ul>
-</div> <!-- banner-txt -->
-</div> <!-- head banner -->
+	</ul>
+	</div>
 
-<div class="first-header column"><!-- first header -->
-	<h2>Joey</h2>
-</div><!-- close first header -->
-<!-- 	make a thin black line across the screen -->
-	<hr size="1"
-	width="100%"
-	color="black"
-	align="center">
+	<div class="first-header column"><!-- first header -->
+		<h1><u>Joey Clemens</u></h1>
+	</div><!-- close first header -->
+		<br>
+		<br>
 	
-<!-- 	end of code for black line. 100% seems to match the banner line -->
+<div class="project-header">
+	<h2>Projects</h2>
+</div> <!-- project header -->
+
+<div class="blog-header">
+	<h2>Blog</h2>
+</div> <!-- project header -->
+
+
 	
+	<div class="project-container">
+	<div class="intro1">
+	<a href="project.html"> <h2>The Nixie clock</h2></a>
 	
-<div class="intro">
-	<p>Hi, I’m Joey, a student, web developer and programmer based in Cornwall. </p>
-	<p>If you want to contact me, you can email me at joeyclemens87@gmail.com or 
-		<a href= "http://www.linkedin.com/in/joeyclemens" target="_blank"> <u>Find me on linkedin</u></p></a>
-	<p>I’m currently doing a BA(Hons) STEM degree, focusing on computer science at The Open University. </P>
-	<p>In my own time I am learning as many skills as possible. For example, this website was built from scratch 
-	   as an exercise to help me learn HTML and CSS. I’m hoping to learn JavaScript soon to add more functionality.</P>
-	<p>Outside of the world of computers and the internet, I am a father, which is the most rewarding job ever. 
-	   I like to collect vintage video games and systems and learn how to repair them if possible. 
-	   When I can get out and about, I love making the most of where I live. 
-		 </P>
-</div> <!-- intro -->
+			
 		
+		 <p>I have been fascinated with the idea of having a nixie tube clock ever 
+			since I first saw one. I had seen a few online but was amazed at how much 
+			they cost to buy. After a few eBay searches I soon realised I could get the 
+			tubes themselves for relatively cheap and looked into how difficult it might 
+			be to build one myself.</p>
+	
+	
+	
+	
+	<img src="img/nixie1.jpg" width="423" height="250" alt="nixie1">
+</div><!-- intro 1  -->
+</div> <!-- end of project container -->	
+
+<div class="blog-container">
+<div class="intro2">
+<h5><u>20/08/19</u></h5>
+<p>I designed and built this website as a creative exercise. I wanted to learn
+how to do it and i've always found the best way to learn something is by
+hands on experience. I was surprised to find how simple it was, and yet I keep
+finding new tricks to improve the layout. Its somewhat addictive and im looking 
+forward to seeing what I can come up with next. </p>
+</div> <!-- intro2 -->
+</div> <!-- end of blog container -->
+
+<br>
+
+<div class="blog2-container">
+<div class="intro2">
+
+</div> <!-- intro2 -->
+</div> <!-- blog2 -->
 
 </div><!-- close container -->
 
