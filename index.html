@@ -79,6 +79,7 @@ font-size:20px;
 padding-left:10px;
 padding-right:10px;
 }
+
 h1 {
   font-size: 36px;
   padding: 1px;
@@ -111,20 +112,46 @@ p {
   line-height: 2.7;
   letter-spacing: 0.8px;
 }
+  
+}
 .intro1 {
-background-color: ;
+background-color:#f2f2f2  ; /* grey 1 */
 float: left width 50%;
 
 }
+.intro2 {
+background-color: #e6e6e6 ; /* grey2 */
+float: right width 50%;
+
+}
 .project-container {
-  background-color: #f2f2f2;
+  left: 0;
+  background-color: #f2f2f2; /* orange 1 */
   float: left;
-  width: 50%;
+  width: 45%;
+ 
+  }
+  
+.blog-container {
+  right: 0;
+  background-color: #ff8533 ; /* orange 1 */
+  float: right;
+  width: 45%;
+}
+
+.blog2-container {
+  right: 0;
+  background-color: #ff8533 ; /* orange 1 */
+  float: right;
+  width: 45%;
+}
+
+
 </style>
 
 <div class="container"><!-- open container -->
 		<div class="main-banner" role="banner">
-  		<img src="img/black_line.gif" width="1024" height="152" alt="black_line">
+  		<img src="img/black_line.gif" width="950" height="152" alt="black_line">
 	</div>
 
 	<div class="banner-txt" id="banner-txt">
@@ -140,10 +167,11 @@ float: left width 50%;
 		<br>
 		<br>
 	
+	
 	<div class="project-container">
 	<div class="intro1">
-	<a href="project.html"> <h2>Projects</h2></a></li>
-	<div class="brief">
+	<a href="project.html"> <h2>Projects</h2></a>
+	
 		<h2>The Nixie clock</h2>
 		
 		 <p>I have been fascinated with the idea of having a nixie tube clock ever 
@@ -151,18 +179,35 @@ float: left width 50%;
 			they cost to buy. After a few eBay searches I soon realised I could get the 
 			tubes themselves for relatively cheap and looked into how difficult it might 
 			be to build one myself.</p>
-	</div><!-- brief -->
 	
 	
 	
-	<img src="img/nixie1.jpg" width="470" height="250" alt="nixie1">
+	
+	<img src="img/nixie1.jpg" width="423" height="250" alt="nixie1">
+</div><!-- intro1  -->
+</div> <!-- end of project container -->	
+<div class="blog-container">
+<div class="intro2">
+<h2>Blog</h2>
+<p>I designed and built this website as a creative exercise. I wanted to learn
+how to do it and i've always found the best way to learn something is by
+hands on experience. I was surprised to find how simple it was, and yet I keep
+finding new tricks to improve the layout. Its somewhat addictive and im looking 
+forward to seeing what I can come up with next. </p>
+</div> <!-- intro2 -->
+</div> <!-- end of blog container -->
 
+<br>
 
-	</div><!-- intro1 column -->
-		
-</div> <!-- end of project container -->
+<div class="blog2-container">
+<div class="intro2">
+
+</div> <!-- intro2 -->
+</div> <!-- blog2 -->
+
 </div><!-- close container -->
 
 </body>
 </html>
+
 
