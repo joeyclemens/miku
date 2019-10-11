@@ -35,10 +35,11 @@ padding: 1px;
 
 .container{
 	
-    max-width: 940px;
-  margin: 0 auto;
-  height: 1500px;
+max-width: 940px;
+margin: 0 auto;
+height: 100%;
 }
+
 body {
 	margin: 0 auto; 
 	background-color: #ffffff;
@@ -108,7 +109,7 @@ p {
   padding: 5px;
   color: #000000;	
   margin-left: 20px;
-  font-weight: 500;
+  font-weight: 50;
   line-height: 2.7;
   letter-spacing: 0.8px;
 }
@@ -160,7 +161,9 @@ background-color: #f2f2f2 ; /* grey1 */
   width: 45%;
 }
 
+
 .projects {
+text-align: center; 
 background-color:#f2f2f2
 }
 
@@ -200,7 +203,7 @@ background-color:#f2f2f2
 }
 
 .open {
-float: right;
-padding: 30px
+float: left;
+padding: 0px
 }
 
