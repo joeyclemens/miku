@@ -1,13 +1,31 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<link rel="icon" href="img/favicon.ico" width="16" height="16" alt="favicon">
 		<title>Joey Clemens</title>
 		<link rel="stylesheet" href="styles.css"/>
+		<meta charset="utf-8"/>
 	</head>
 
 <body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="TheNixieClock.html"><h2>The Nixie tube clock</h2></a>
+  <a href="#">Mac Classic ii</a>
+</div>
+<div class="open">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Projects</span>
+</div>
 
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 <div class="container"><!-- open container -->
 		<div class="main-banner" role="banner">
@@ -22,38 +40,18 @@
 	</div>
 <h1><u>Projects</u></h1>
 	<div class="projects"><!-- first header -->
-		
-	<div class="brief">
-		<h2>The Nixie clock</h2>
-		
-		<h3>The brief</h3>
-			<p>I have been fascinated with the idea of having a nixie tube clock ever 
-			since I first saw one. I had seen a few online but was amazed at how much 
-			they cost to buy. After a few eBay searches I soon realised I could get the 
-			tubes themselves for relatively cheap and looked into how difficult it might 
-			be to build one myself.</p>
-	</div><!-- brief -->
+	<p>This will be the page that redirects you to the various projects that I will post.
+	For now, despite it not being the most intuitive solution, you will find a menu to your 
+	right where you can find my projects. I have done this purely to practice and to use some java script.
+	I will most likely change this once I figure out a better implementation, but as this site is
+	purely for my own development I think its fine for now. 
 	
-	<div class="build">
-	<h3>The build</h3>
-	<p>There are a few schematics online that explain how the tubes work and using this 
-	I was able to get the tubes I bought to display numbers. The next step was how to get 
-	the time displayed as accurately as possible. I have used the Arduino micro 
-	controller a few times before, so I was familiar with it and its programming language.
-	I used one as a base for this project and worked upwards from there. I found a cheap 
-	circuit board online with a 555 timer and the required voltage regulators 
-	(The nixie tubes need 240 volts which is considerably more than the 5 volts the 
-	Arduino outputs). Once everything was soldered together and the code was written I 
-	was very pleased to see that it worked. I then had to put it in a box of some kind. 
-	The bare circuit board looked cool but if you touched it there was a very good chance 
-	of a nasty electric shock. I settled on a nice wooden box which I felt offset the 
-	steampunk feel of the orange glow from the tubes. </p>
-	</div> <!-- build -->
-	<img src="img/nixie1.jpg" width="940" height="450" alt="nixie1">
 	
 </div><!-- close first header -->
 
 </div><!-- close container -->
+
+
 
 </body>
 </html>
