@@ -1,0 +1,47 @@
+
+/*
+Animate page header
+*/
+.bounce-in-top {
+  animation-name: bounce-in-top;
+  animation-duration: 3s;
+}
+
+@keyframes bounce-in-top {
+  0% {
+    transform: translate(-700px);
+  }
+
+  40% {
+    transform: translatey(100px);
+  }
+}
+
+/* center text */
+.bounce-in-top {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+/*
+Animate page link
+*/
+.bounce-in-link {
+  animation-name: bounce-in-link;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+.background {
+  background: #ff0000;
+  opacity: 1;
+  border-radius: 25px;
+  animation: fadebackground 3s;
+
+}
+@keyframes fadebackground {
+  0% {background-color: #ffffff;}
+  70% {background-color: #ffffff;}
+  100% {background-color: #ff0000;}
+}
