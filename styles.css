@@ -24,7 +24,7 @@ Animate page header
 /* center text */
 .bounce-in-top {
     text-align: center;
-    font-family: monospace;
+    font-family: 'Orbitron', sans-serif;
     font-size: 30px;
 }
 
